@@ -10,8 +10,8 @@ chef_cookbook_path: ./provision
 #
 # Network Settings
 #
-hostname: wordpress.local
-ip: 192.168.33.10
+hostname: church.local
+ip: 192.168.33.11
 sync_folder: 'www/wordpress'
 
 #
