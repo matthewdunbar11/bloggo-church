@@ -25,18 +25,6 @@
 					'first_day' => 0,
 				),
 				array (
-					'key' => 'field_554748d0109b6',
-					'label' => 'Speaker',
-					'name' => 'speaker',
-					'type' => 'text',
-					'default_value' => '',
-					'placeholder' => '',
-					'prepend' => '',
-					'append' => '',
-					'formatting' => 'html',
-					'maxlength' => '',
-				),
-				array (
 					'key' => 'field_554748ec109b7',
 					'label' => 'Scripture Reference',
 					'name' => 'scripture_reference',

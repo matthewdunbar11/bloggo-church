@@ -24,7 +24,6 @@ function register_sermon_post_type() {
 		'labels'              => $labels,
 		'menu_icon'           => 'dashicons-video-alt3',
 		'supports'            => array( 'title', 'editor', 'thumbnail', 'comments', ),
-		'taxonomies'          => array( 'category', 'post_tag' ),
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_ui'             => true,
