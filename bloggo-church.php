@@ -47,8 +47,12 @@ class Bloggo_Church {
 			}
 			else if(substr($file['mime_type'], 0, 5) == 'video') {
 				$media_shortcode = '[video src="' . $file['url'] . '"]';
-			}
+			}			
 			$the_content .= $media_shortcode;
+			
+			if(get_field('video_url')) {
+				$the_content .= '[video src="' . get_field('video_url') . '"]';
+			}
 		}
 		return $the_content;
 	}

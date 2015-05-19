@@ -8,12 +8,23 @@
 			'fields' => array (
 				array (
 					'key' => 'field_554746e8109b4',
-					'label' => 'File',
+					'label' => 'Upload File',
 					'name' => 'file',
 					'type' => 'file',
-					'required' => 1,
 					'save_format' => 'object',
 					'library' => 'uploadedTo',
+				),
+				array (
+					'key' => 'field_554746e8109a2',
+					'label' => 'Video URL',
+					'name' => 'video_url',
+					'type' => 'text',
+					'default_value' => '',
+					'placeholder' => '',
+					'prepend' => '',
+					'append' => '',
+					'formatting' => 'html',
+					'maxlength' => '',
 				),
 				array (
 					'key' => 'field_554748c2109b5',
