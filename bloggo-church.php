@@ -1,6 +1,8 @@
 <?php
 /*
 	Plugin Name: Bloggo Church
+	GitHub Plugin URI: matthewdunbar11/bloggo-church
+	Version: 0.0.2 
 */
 
 include( 'taxonomies/speaker.php' );
