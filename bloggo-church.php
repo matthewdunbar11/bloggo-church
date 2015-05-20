@@ -4,7 +4,7 @@
 	GitHub Plugin URI: https://github.com/matthewdunbar11/bloggo-church
 	GitHub Branch: master
 	Description: Provides content types and fields for Bloggo Media websites
-	Version: 1.0.2 
+	Version: 1.0.3
 */
 
 include( 'taxonomies/speaker.php' );
