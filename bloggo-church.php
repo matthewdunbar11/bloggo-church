@@ -1,6 +1,7 @@
 <?php
 /*
 	Plugin Name: Bloggo Church
+	Plugin URI: https://github.com/matthewdunbar11/bloggo-church
 	GitHub Plugin URI: https://github.com/matthewdunbar11/bloggo-church
 	GitHub Branch: master
 	Description: Provides content types and fields for Bloggo Media websites
