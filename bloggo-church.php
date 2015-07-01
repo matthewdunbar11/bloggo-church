@@ -78,7 +78,7 @@ function endsWith($haystack, $needle)
 
 function my_plugin_update_handler( EUAPI_Handler $handler = null, EUAPI_Item_Plugin $item ) {
 
-    if ( 'bloggo-church' == $item->file ) {
+    if ( 'bloggo-church/bloggo-church.php' == $item->file ) {
 
         $handler = new EUAPI_Handler_GitHub( array(
             'type'       => $item->type,
