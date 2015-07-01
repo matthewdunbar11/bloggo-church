@@ -4,7 +4,7 @@
 	GitHub Plugin URI: https://github.com/matthewdunbar11/bloggo-church
 	GitHub Branch: master
 	Description: Provides content types and fields for Bloggo Media websites
-	Version: 1.0.4
+	Version: 1.0.5
 */
 
 include( 'taxonomies/speaker.php' );
@@ -79,7 +79,7 @@ function endsWith($haystack, $needle)
 
 
 
-function my_plugin_update_handler( EUAPI_Handler $handler = null, EUAPI_Item_Theme $item ) {
+function my_plugin_update_handler( EUAPI_Handler $handler = null, EUAPI_Item_Plugin $item ) {
 
     if ( 'bloggo-church' == $item->file ) {
 
