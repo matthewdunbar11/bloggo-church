@@ -4,7 +4,7 @@
 	GitHub Plugin URI: https://github.com/matthewdunbar11/bloggo-church
 	GitHub Branch: master
 	Description: Provides content types and fields for Bloggo Media websites
-	Version: 1.0.6
+	Version: 1.0.7
 */
 
 include( 'taxonomies/speaker.php' );
@@ -40,9 +40,10 @@ class Bloggo_Church {
 	function the_content( $the_content ) {
 		if( is_single() && get_post_type() == 'sermon' ) {
 			
-			$the_content =  '<div>Speaker: ' . get_the_term_list(get_the_ID(), 'speaker') . '</div>' 
-				. '<div>Sermon Series: ' . get_the_term_list(get_the_ID(), 'sermon_series') . '</div>'
-				. '<div>Scripture Reference: ' . get_field('scripture_reference') . '</div>' 
+			$the_content =  
+				  '<h4 class="text-center">' . get_field('scripture_reference') . ', </h4>' 
+				. '<div>Speaker: ' . get_the_term_list(get_the_ID(), 'speaker') . '</div>' 
+				. '<div>Series: ' . get_the_term_list(get_the_ID(), 'sermon_series') . '</div>'				
 				. $the_content;
 			
 			$file = get_field('file');
